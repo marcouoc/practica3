@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Practica3.Model.Customers>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<input type="hidden" id="baseUrl"  value="@Url.Action("", new { controller="Customers", area="SalesBD" })" />
+
+<script>
+    alert(document.getElementById('baseUrl').value);
+
+</script>
+
+
+@CustomHelper.Message("successMessage", "success", "The record was created.")
+@CustomHelper.Message("editMessage", "info", "The record was updated.")
+@CustomHelper.Message("deleteMessage", "danger", "The record was deleted.")
+
+
+<div class="row">
+    @CustomHelper.RowSizeDropdown()
+    <div class="col-lg-8" id="paginator-container">
+        <div class="paginator"></div>
+    </div>
+</div>
+<p>
+    <a href="#"
+       onclick="getModalContent('@Url.Action("Create", new { area="SalesBD" })')"
+       data-toggle="modal"
+       data-target="#modal-container"
+       class="btn btn-success">
+        <span class="glyphicon glyphicon-plus"></span> Create New
+    </a>
+</p>
+<div id="saleContent"></div>
+
+
+@CustomHelper.GetModal("Customers")
+
+@Scripts.Render("~/bundles/unobtrusive-ajax")
+@Scripts.Render("~/bundles/modal")
+@Scripts.Render("~/bundles/paginator")
+@Scripts.Render("~/bundles/sales")
+<script  type="text/javascript" src="~/Scripts/Shared/modal.js"></script>
+<script type="text/javascript" src="~/Areas/SalesBD/Scripts/Sales.js"></script>
+<script type="text/javascript" src="~/Scripts/jquery.bootpag.min.js"></script>
+<script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>

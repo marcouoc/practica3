@@ -1,0 +1,10 @@
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\bin\Debug\Practica3.Model.dll.config
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\bin\Debug\Practica3.Model.dll
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\bin\Debug\Practica3.Model.pdb
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\bin\Debug\EntityFramework.dll
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\bin\Debug\EntityFramework.xml
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\obj\Debug\Practica3.Model.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\obj\Debug\Practica3.Model.dll
+C:\Users\Marco\Source\Repos\NewRepo\Practica3\Practica3.Model\obj\Debug\Practica3.Model.pdb
